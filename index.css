@@ -1,0 +1,53 @@
+@font-face {
+  font-family: ayer_regular_italic;
+  src: url(./assests/images/fonts/ayer_regular_italic.ttf);
+}
+@font-face {
+  font-family: ayer_bold_italic;
+  src: url(./assests/images/fonts/ayer_bold_italic.ttf);
+}
+@font-face {
+  font-family: ayer_med_italic;
+  src: url(./assests/images/fonts/ayer_med_italic.ttf);
+}
+@font-face {
+  font-family: ayer_semibold_italic;
+  src: url(./assests/images/fonts/ayer_semibold_italic.ttf);
+}
+@font-face {
+  font-family: ayer_semibold_italic;
+  src: url(./assests/images/fonts/messina_bold.ttf);
+}
+@font-face {
+  font-family: messina_light;
+  src: url(./assests/images/fonts/messina_light.ttf);
+}
+@font-face {
+  font-family: messina_reg;
+  src: url(./assests/images/fonts/messina_reg.ttf);
+}
+@font-face {
+  font-family: messina_semibold;
+  src: url(./assests/images/fonts/messina_semibold.ttf);
+}
+@font-face {
+  font-family: stratos_bold;
+  src: url(./assests/images/fonts/stratos_bold.otf);
+}
+@font-face {
+  font-family: stratos_medium;
+  src: url(./assests/images/fonts/stratos_medium.otf);
+}
+@font-face {
+  font-family: stratos_reg;
+  src: url(./assests/images/fonts/stratos_reg.otf);
+}
+@font-face {
+  font-family: stratos_semibold;
+  src: url(./assests/images/fonts/stratos_semibold.otf);
+}
+
+:root {
+  --black: #181618;
+  --white: #e6e5dd;
+}

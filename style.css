@@ -1,0 +1,201 @@
+@import "./index.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: stratos_bold;
+  text-transform: uppercase;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+
+  top: 0;
+  position: absolute;
+  left: 0;
+  padding: 20px 30px;
+}
+
+nav .nav-content {
+  width: 100%;
+  /* height: 60px; */
+  border-radius: 8px;
+  border: 1px dashed white;
+  color: white;
+  display: flex;
+  padding: 8px 20px ;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-content .logo {
+  font-size: 2vw;
+  display: flex;
+  gap: 10px;
+}
+
+nav .nav-content .icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+}
+nav .nav-content .icons .icon {
+  width: 50px;
+  height: 50px;
+  border: 1px dashed var(--white);
+  
+}
+
+nav .nav-content .icons .icon:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+nav .nav-content .icons .icon:nth-child(1) i {
+  font-size: 3.5vw;
+}
+nav .nav-content .icons .icon:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 17.5px;
+  gap: 4px;
+height: 35px;
+width: 70px;
+}
+nav .nav-content .icons .icon:nth-child(2) .bar {
+  width: 50%;
+  height: 2px;
+  background-color: var(--white);
+}
+
+.page1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./assests/images/images/660b9f41339b1e206cc4b168_THE_CONVERT.webp);
+
+  background-position: center;
+  background-size: cover;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #18181600, #18181600,#18181600, #e6e5ddf1);
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding: 30px;
+}
+
+.page1-container {
+  width: 100%;
+  height: 42vh;
+}
+
+.top {
+  width: 100%;
+
+  text-align: center;
+  color: white;
+}
+
+.top p {
+  font-family: messina_reg;
+
+  margin-bottom: 2vw;
+  word-spacing: 10px;
+  letter-spacing: 4px;
+}
+
+.top h1 {
+  font-size: 7vw;
+  line-height: 3.8vw;
+}
+
+.top h1 span {
+  font-family: ayer_med_italic;
+  text-transform: lowercase;
+  font-size: 4vw;
+
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.bottom {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 1.5vw;
+  align-items: top;
+  color: white;
+}
+.bottom .left {
+  width: 15%;
+}
+.left.h2 {
+  font-size: 2vw;
+  font-family: stratos_reg;
+  line-height: 1.8vw;
+}
+.left.span {
+  font-size: 2vw;
+  line-height: 1.8vw;
+}
+.bottom .center {
+  width: 60%;
+}
+
+.center p {
+  text-align: center;
+  font-size: 0.8vw;
+  font-family: messina_semibold;
+}
+
+.bottom .right {
+  width: 15%;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.right a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8vw;
+  font-family: stratos_reg;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+a .a-text {
+  border-bottom: 2px dashed white;
+  font-family: messina_semibold;
+}
+
+a:hover .circle i {
+  transform: rotate(-45deg);
+  transition: all ease 0.3;
+}
+.right .circle {
+  width: 25px;
+  height: 25px;
+  background-color: #e6e5ddf1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right .circle i {
+  color: black;
+}
+.bottom a {
+  text-decoration: none;
+  color: white;
+}
